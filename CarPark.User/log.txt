@@ -1136,3 +1136,20 @@ System.InvalidOperationException: The view 'Index' was not found. The following 
 2021-08-11 13:32:26.508 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 24.5668ms
 2021-08-11 13:32:26.508 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
 2021-08-11 13:32:26.514 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:51967/en-US/home - - - 200 - text/html;+charset=utf-8 32.2830ms
+2021-08-11 14:28:49.856 +03:00 [INF] User profile is available. Using 'C:\Users\oguzh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-11 14:28:50.345 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-11 14:28:50.346 +03:00 [INF] Hosting environment: Development
+2021-08-11 14:28:50.346 +03:00 [INF] Content root path: C:\Users\oguzh\source\repos\CarPark\CarPark.User
+2021-08-11 14:28:50.383 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:51967/ - -
+2021-08-11 14:28:50.441 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:51967/ - - - 404 - - 60.1578ms
+2021-08-11 14:29:03.818 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:51967/en-US/home - -
+2021-08-11 14:29:03.834 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-08-11 14:29:03.896 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-08-11 14:29:03.964 +03:00 [INF] Executing action method CarPark.User.Controllers.HomeController.Index (CarPark.User) - Validation state: "Valid"
+2021-08-11 14:29:03.971 +03:00 [ERR] Customer da bir hata oluştur {"Id":1,"NameSurname":"OguzhanSENTURK","Age":30,"$type":"Customer"}
+2021-08-11 14:29:03.988 +03:00 [INF] Executed action method CarPark.User.Controllers.HomeController.Index (CarPark.User), returned result Microsoft.AspNetCore.Mvc.ViewResult in 19.3422ms.
+2021-08-11 14:29:04.001 +03:00 [INF] Executing ViewResult, running view Index.
+2021-08-11 14:29:04.148 +03:00 [INF] Executed ViewResult - view Index executed in 151.1116ms.
+2021-08-11 14:29:04.150 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 253.5328ms
+2021-08-11 14:29:04.150 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-08-11 14:29:04.152 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:51967/en-US/home - - - 200 - text/html;+charset=utf-8 334.1440ms
