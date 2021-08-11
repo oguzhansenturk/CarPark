@@ -9,11 +9,11 @@ namespace CarPark.User.Models
 {
     public class UserCreateRequestModel
     {
-        [Required(ErrorMessage ="NameSurname_Required")]
+        [Required(ErrorMessage ="{0} is required!")]
         [DisplayName("NameSurname")]
         public string NameSurname { get; set; }
 
-        [Required(ErrorMessage = "JobTitle_Required")]
+        [Required(ErrorMessage = "{0} is required!")]
         [DisplayName("JobTitle")]
         public string JobTitle { get; set; }
     }
